@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>DOM Operations</title>
+    </head>
+    <body>
+        <h1 id="main">DOM Operations<b>Example</b></h1>
+        <p id="demo"></p>  
+        <button onclick="display()" type="button" id="btn">check Dop feature</button>
+        <script>
+            let element = document.getElementById("main");
+            let paragraph = document.getElementById("demo");
+            let btn = document.getElementById("btn");
+            //console.log(element);
+            //console.log(element.innerHTML);
+            //paragraph.innerHTML = element.innerHTML;
+            function display(){
+                paragraph.innerHTML = element.innerHTML;
+            }
+        </script>
+    </body>
+</html>
